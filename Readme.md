@@ -4,10 +4,12 @@
 iOS app that shows bicycle and car parking information for Edinburgh
 
 ## Description
-The Edinburgh City Council has parking information up on the council website but this is not very easy to find or accessible. We wanted to proovide an easy app that would show parkign spots and their costs and relevant information, but also show bicyle parkign spots to promote cycling instead of taking the car. 
+The Edinburgh City Council has parking information up on the council website but this is not very easy to find or accessible. We wanted to proovide an easy app that would show parking spots and their costs and relevant information, but also show bicyle parking spots to promote cycling instead of taking the car. 
 
 ## Technical Architecture:
-The app is based on a data layer (ParkingData) that pocesses the data, a web server layer (ParkingServer) to serve out this data and the actual Smart Park iOS app.  The data layer is built in python and uses a Postgresql database. The webserver is built in Java Spring. The iOS app is built in React Native and uses Google maps. 
+The app is based on a data layer (ParkingData) that manages the data, a web server layer (ParkingServer) to serve out the data and the actual Smart Park iOS app.  
+
+The data layer is built to process API data in Python and uses a Postgresql database to store the data that the app will consume. The webserver is built in Java Spring and provides routes to access this data. The iOS app is built in React Native and uses Google maps. 
 
 ### Requirements:
 To be able to run the entire project the following will need to be installed on your machine:
@@ -23,9 +25,10 @@ To be able to run the entire project the following will need to be installed on 
     
 
 ## Installation Instructions:
-1.  ParkingData needs to be installed first. Please follow the detailed instructions from the [Readme]  (https://github.com/LidzDev/ParkingData/Readme.md)
-2. ParkingServer needs to be installed next. Please follow the detailed instructions from the [Readme]  (https://github.com/Andy-brown87/ParkingServer/Readme.md)
-3. Finally install the app. Please follow the detailed instructions from the [Readme] (https://github.com/DarrenLackie/parking_app_frontend/Readme.md)
+1.  Create a project directory, for example `mkdir SmartPark``
+2.  First ParkingData needs to be installed in the project directory. Please follow the detailed instructions from the [Readme]  (https://github.com/LidzDev/ParkingData/Readme.md)
+3. Next install the ParkingServer in the project directory. Please follow the detailed instructions from the [Readme]  (https://github.com/Andy-brown87/ParkingServer/Readme.md)
+4. Finally install the app in the project directory. Please follow the detailed instructions from the [Readme] (https://github.com/DarrenLackie/parking_app_frontend/Readme.md)
      
 ## How to use it
 
