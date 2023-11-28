@@ -20,6 +20,7 @@ To be able to run the entire project the following will need to be installed on 
 - PostgresQL 14.10
 - Java 17
 - Spring 3.1.6 (*Spring Web*, *Spring Boot DevTools*, *Spring Data JPA*, *PostgresSQL Driver*)
+- Intellij IDEA Community Edition (or your own favourite java IDE)
 - Xcode
 - Expo Go *on your phone*
     
@@ -34,8 +35,9 @@ To be able to run the entire project the following will need to be installed on 
 
 1. Make sure the parking database is running and that you have ran the seed scripts. You can use a tool like [postico](https://eggerapps.at/postico2/). You should see some tables with data in the parking database called:
     `bicycle_spots, hours, parking_spots, parking_zones, spot_coordinates, vehicles, zone_coordinates`
-2. Make sure the webserver is installed and running on port 8080. You can use a tool like [insomnia](https://insomnia.rest/products/insomnia). You should get some results when you [check](http://localhost:8080/parkingspots)
-3. Make sure the front end client is running
+2. Make sure the webserver is installed and running on port 8080. If you use [Intellij](https://www.jetbrains.com/idea/download/), you can stop and start the server in the Application
+3. You can use a tool like [insomnia](https://insomnia.rest/products/insomnia) to test the routes. You should get some results when you [check](http://localhost:8080/parkingspots)
+4. Make sure the front end client is running
 
 ## What it looks like
 
