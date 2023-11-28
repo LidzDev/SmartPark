@@ -11,15 +11,15 @@ The app is based on a data layer (ParkingData) that pocesses the data, a web ser
 
 ### Requirements:
 To be able to run the entire project the following will need to be installed on your machine:
-    - Python 3.11 
-    - SQLAlchemy 2.0.20
-    - PyMongo 4.6.0
-    - MongoDB 6.0.10 Community
-    - PostgresQL 14.10
-    - Java 17
-    - Spring 3.1.6 (*Spring Web*, *Spring Boot DevTools*, *Spring Data JPA*, *PostgresSQL Driver*)
-    - Xcode
-    - Expo Go *on your phone*
+- Python 3.11 
+- SQLAlchemy 2.0.20
+- PyMongo 4.6.0
+- MongoDB 6.0.10 Community
+- PostgresQL 14.10
+- Java 17
+- Spring 3.1.6 (*Spring Web*, *Spring Boot DevTools*, *Spring Data JPA*, *PostgresSQL Driver*)
+- Xcode
+- Expo Go *on your phone*
     
 
 ## Installation Instructions:
