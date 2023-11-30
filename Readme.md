@@ -4,7 +4,7 @@
 iOS app that shows bicycle and car parking information for Edinburgh
 
 ## Description
-The Edinburgh City Council has parking information up on the council website but this is not very easy to find or accessible. We wanted to proovide an easy app that would show parkign spots and their costs and relevant information, but also show bicyle parkign spots to promote cycling instead of taking the car. 
+The Edinburgh City Council has parking information up on the council website but this is not very easy to find or accessible. We wanted to proovide an easy app that would show parking spots and their costs and relevant information, but also show bicyle parking spots to promote cycling instead of taking the car. 
 
 ## Technical Architecture:
 The app is based on a data layer (ParkingData) that pocesses the data, a web server layer (ParkingServer) to serve out this data and the actual Smart Park iOS app.  The data layer is built in python and uses a Postgresql database. The webserver is built in Java Spring. The iOS app is built in React Native and uses Google maps. 
